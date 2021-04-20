@@ -1,0 +1,83 @@
+:root{
+    --vermelha: #e50914;
+    --preta: #141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelha);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
+
+/*Game Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/AC.jpg);
+    
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ .botao{
+     background-color: rgba(0, 0, 0, .50);
+     border: none;
+     color: #ffffff;
+     padding: 15px 20px 15px 20px;
+     margin: 10px;
+     font-size: 12px;
+
+     cursor: pointer;
+     transition: .5s ease all;
+ }
+
+ .botao:hover{
+     background-color: #ffffff;
+     color: #000;
+ }
