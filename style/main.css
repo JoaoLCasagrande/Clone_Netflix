@@ -60,9 +60,7 @@ header nav a:hover{
 }
 
 .titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 60%;
 }
 
 .container{
@@ -98,8 +96,8 @@ header nav a:hover{
  }
 
  .item{
-     width: 185px;
-     height: 260px;
+     width: 190px;
+     height: 270px;
  }
 
  .owl-carousel{
