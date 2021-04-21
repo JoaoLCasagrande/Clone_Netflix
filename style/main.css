@@ -65,16 +65,27 @@ header nav a:hover{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
  .botao{
      background-color: rgba(0, 0, 0, .50);
      border: none;
      color: #ffffff;
      padding: 15px 20px 15px 20px;
-     margin: 10px;
      font-size: 12px;
 
      cursor: pointer;
      transition: .5s ease all;
+ }
+
+ .botao:nth-child(2){
+     margin-left: 10px;
  }
 
  .botao:hover{
@@ -83,5 +94,15 @@ header nav a:hover{
  }
 
  .botao i{
-     margin-right: 5px;
+     margin-left: 5px;
+ }
+
+ .box-filme{
+     height: 100%;
+     width: 100%;
+     display: block;
+ }
+
+ .carousel-filmes{
+     margin-top: 8px;
  }
