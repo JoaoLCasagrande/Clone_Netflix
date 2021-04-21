@@ -97,6 +97,15 @@ header nav a:hover{
      margin-left: 5px;
  }
 
+ .item{
+     width: 185px;
+     height: 260px;
+ }
+
+ .owl-carousel{
+     margin-left: 38px;
+ }
+
  .box-filme{
      height: 100%;
      width: 100%;
